@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: system
+    password: system
+    url: jdbc:oracle:thin:@172.16.5.217:1521:XE
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true      
+  application:
+    name: STUDENT-SERVICE
+  boot:
+    admin:
+      client:
+        url: http://localhost:2222
+server:
+  port: 8082
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
