@@ -21,4 +21,4 @@ management:
     web:
       exposure:
         include: '*'
-msg : Student Service is working fine .....
+msg : Student Service is working fine .....@@@@@@@
