@@ -21,4 +21,4 @@ management:
     web:
       exposure:
         include: '*'
-msg : App is working As Expected  without any issue......!
+msg : Student Service is working fine .....
