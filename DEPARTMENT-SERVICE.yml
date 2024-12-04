@@ -21,4 +21,4 @@ management:
     web:
       exposure:
         include: '*'
-msg: Hello.......Good Evening...EveryOne
+msg: Hello.......Good Evening...EveryOne...Welcome to Verinon....
